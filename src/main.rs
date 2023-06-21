@@ -58,8 +58,6 @@ fn main() {
                     mask |= 1 << i;
                 }
             }
-            // TODO: Using weird enumeration order of the braille chars,
-            // create a bitmask of the pixels that are closer to max than min.
 
             print!(
                 "{}",
